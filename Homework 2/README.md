@@ -17,4 +17,4 @@ Exercise: Read through the [document](https://learn.microsoft.com/en-us/training
 <br />
 
 * VM 2 - Ubuntu (via SSH from WSL2) with the output from the selected artifact NVM:  
-![Ubuntu](./assets/VM2Ubuntu_VeliborStanisic.jpg)
+![Ubuntu](./assets/VM2Ubuntu_VeliborStanisic.jpg)  

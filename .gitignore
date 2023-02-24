@@ -4,3 +4,8 @@ tramp
 .\#*
 /eshell/history
 /eshell/lastdir
+
+#
+.idea/
+go.mod
+.zip

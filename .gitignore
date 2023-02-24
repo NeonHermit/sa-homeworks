@@ -7,5 +7,6 @@ tramp
 
 #
 .idea/
-go.mod
 .zip
+go.mod
+go.sum

@@ -10,4 +10,3 @@ tramp
 *.zip
 go.mod
 go.sum
-bootstrap

@@ -2,5 +2,5 @@
 
 <br/>
 
-Wordle clone with Jupyter Notebook
+Wordle clone with Jupyter Notebook  
 ![PyWordle](./assets/py_wordle.jpg)

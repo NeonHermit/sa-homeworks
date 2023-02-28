@@ -2,7 +2,6 @@
 <br/>
 
 Repo for all the labs and homeworks.  
-
 <br/>
 
 ## Contents
@@ -10,6 +9,7 @@ Repo for all the labs and homeworks.
 * [Homework 2 - Azure DevTest Lab and VM setup](https://github.com/NeonHermit/sa-homeworks/tree/main/Homework%202)
 * [Homework 3 - Get Started With Github](https://github.com/NeonHermit/sa-homeworks/tree/main/Homework%203)
 * [Homework 4 - Python Calculator](https://github.com/NeonHermit/sa-homeworks/tree/main/Homework%204)
+* [Homework 5 - Python Wordle](https://github.com/NeonHermit/sa-homeworks/tree/main/Homework%205)
 ---
   * [Hello Lambda](https://github.com/NeonHermit/sa-homeworks/tree/main/Hello%20Lambda)
 ---

@@ -16,6 +16,8 @@ Repo for all the labs and homeworks.
 ---
   * [Hello Lambda](https://github.com/NeonHermit/sa-homeworks/tree/main/Hello%20Lambda)
   * [Azure CLI](https://github.com/NeonHermit/sa-homeworks/tree/main/Azure%20CLI)
+  * [Azure PowerShell](https://github.com/NeonHermit/sa-homeworks/tree/main/Azure%20PowerShell)
+
 ---
 
 <br/>

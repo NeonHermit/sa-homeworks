@@ -30,6 +30,7 @@ As an example, the first two answers have been filled in:
 **Difficulty: Medium**  
 Refer to the exhibit and answer the questions below. The letter symbol ✉, represents the IP packet as it travels across the network.  In the example shown, the laptop attempts to communicate with the web server in question. During its travel the packet will be forwarded across the network nodes and will eventually end up across six network interfaces before it reaches the web server. Each packet as part of the TCP/IP Stack contains fields for the source and destination MAC Address, IP Address and the TCP/UDP Port.  
 
+![diagram](./assets/diagram.png)
 
 **For each of the packet locations shown, 1 to 4 write down the source and destination MAC addresses of the packet as it travels across the network interfaces.**  
 1. The laptop initiates communication with the web server and prepares a packet. What would the packet look like at this stage?  

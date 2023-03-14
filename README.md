@@ -13,6 +13,7 @@ Repo for all the labs and homeworks.
 * [Homework 6 - Basic Linux Commands](https://github.com/NeonHermit/sa-homeworks/tree/main/Homework%206)
 * [Homework 7 - Shell Scripts](https://github.com/NeonHermit/sa-homeworks/tree/main/Homework%207)
 * [Homework 8 - Linux Commands 2](https://github.com/NeonHermit/sa-homeworks/tree/main/Homework%208)
+* [Homework 9 - Basic Networking](https://github.com/NeonHermit/sa-homeworks/tree/main/Homework%209)
 ---
   * [Hello Lambda](https://github.com/NeonHermit/sa-homeworks/tree/main/Hello%20Lambda)
   * [Azure CLI](https://github.com/NeonHermit/sa-homeworks/tree/main/Azure%20CLI)

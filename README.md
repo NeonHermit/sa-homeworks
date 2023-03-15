@@ -19,6 +19,7 @@ Repo for all the labs and homeworks.
   * [Azure CLI](https://github.com/NeonHermit/sa-homeworks/tree/main/Azure%20CLI)
   * [Azure PowerShell](https://github.com/NeonHermit/sa-homeworks/tree/main/Azure%20PowerShell)
   * [SQL Exercise](https://github.com/NeonHermit/sa-homeworks/tree/main/SQL%20Exercise)
+  * [AZ-104 Lab 04](https://github.com/NeonHermit/sa-homeworks/tree/main/AZ-104%20Lab%2004)
 
 ---
 

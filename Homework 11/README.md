@@ -8,19 +8,34 @@ You were tasked with testing managing network traffic targeting Azure virtual ma
 ### Objectives 
 In this lab, you will:
 
-Task 1: Provision the lab environment
-Task 2: Configure the hub and spoke network topology
-Task 3: Test transitivity of virtual network peering
-Task 4: Configure routing in the hub and spoke topology
-Task 5: Implement Azure Load Balancer
-Task 6: Implement Azure Application Gateway
+* Task 1: Provision the lab environment  
+* Task 2: Configure the hub and spoke network topology  
+* Task 3: Test transitivity of virtual network peering  
+* Task 4: Configure routing in the hub and spoke topology  
+* Task 5: Implement Azure Load Balancer  
+* Task 6: Implement Azure Application Gateway  
 
 ### Review
 In this lab, you have:
 
-Provisioned the lab environment  
-Configured the hub and spoke network topology  
-Tested transitivity of virtual network peering  
-Configuref routing in the hub and spoke topology  
-Implemented Azure Load Balancer  
-Implemented Azure Application Gateway
+1. Provisioned the lab environment:  
+    * Created a virtual network with subnets
+    * Created virtual machines in each subnet
+    
+2. Configured the hub and spoke network topology:  
+    * Create a central hub network and spoke networks that are connected to it  
+    * Configured the subnets in each spoke network to use the hub network as the default route
+    
+3. Tested transitivity of virtual network peering   
+    * Created virtual network peering connections between the hub network and spoke networks
+    * Tested if the traffic can flow between them through the hub  
+    
+4. Configure routing in the hub and spoke topology  
+    * Created user defined routes that tell traffic how to get from one subnet to another 
+    * Ensured that traffic between spokes is forced to flow through the hub network 
+    
+5. Implemented Azure Load Balancer    
+    * Configured the (layer 4) load balancer to distribute traffic across virtual machines in different subnets  
+    
+6. Implemented Azure Application Gateway  
+    * Configured the gateway to manage traffic based on the content of the traffic

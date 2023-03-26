@@ -16,6 +16,8 @@ Repo for all the labs and homeworks.
 * [Homework 9 - Basic Networking](https://github.com/NeonHermit/sa-homeworks/tree/main/Homework%209)
 * [Homework 10 - Lab 08 - Manage Virtual Machines](https://github.com/NeonHermit/sa-homeworks/tree/main/Homework%2010)
 * [Homework 11 - Lab 06 - Implement Traffic Management](https://github.com/NeonHermit/sa-homeworks/tree/main/Homework%2011)
+* [Homework 12 - Lab 05 - Implement Intersite Connectivity](https://github.com/NeonHermit/sa-homeworks/tree/main/Homework%2012)
+* [Homework 13 - Lab 09a - Implement Web Apps](https://github.com/NeonHermit/sa-homeworks/tree/main/Homework%2013)
 ---
   * [Hello Lambda](https://github.com/NeonHermit/sa-homeworks/tree/main/Hello%20Lambda)
   * [Azure CLI](https://github.com/NeonHermit/sa-homeworks/tree/main/Azure%20CLI)

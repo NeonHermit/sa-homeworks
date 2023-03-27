@@ -27,6 +27,7 @@ Repo for all the labs and homeworks.
   * [AZ-104 Lab 01](https://github.com/NeonHermit/sa-homeworks/tree/main/AZ-104%20Lab%2001)
   * [AZ-104 Lab 02a](https://github.com/NeonHermit/sa-homeworks/tree/main/AZ-104%20Lab%2002a)
   * [AZ-104 Lab 02b](https://github.com/NeonHermit/sa-homeworks/tree/main/AZ-104%20Lab%2002b)
+  * [Amazon EBS](https://github.com/NeonHermit/sa-homeworks/tree/main/Amazon%20EBS)
 ---
 
 <br/>

@@ -41,7 +41,7 @@ Run cd test.
     ADD test.sh /
     CMD /bin/bash /test.sh
   ```
-    ![Containerfile](./assets/lab02_step06.png)
+   ![Containerfile](./assets/lab02_step06.png)
 
 7. Save your Dockerfile.  
 8. Build your image. Run docker build –t my-image1 ./  

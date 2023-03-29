@@ -1,0 +1,5 @@
+FROM alpine
+
+ADD test.sh /
+
+CMD /bin/sh /test.sh

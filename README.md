@@ -18,6 +18,7 @@ Repo for all the labs and homeworks.
 * [Homework 11 - Lab 06 - Implement Traffic Management](https://github.com/NeonHermit/sa-homeworks/tree/main/Homework%2011)
 * [Homework 12 - Lab 05 - Implement Intersite Connectivity](https://github.com/NeonHermit/sa-homeworks/tree/main/Homework%2012)
 * [Homework 13 - Lab 09a - Implement Web Apps](https://github.com/NeonHermit/sa-homeworks/tree/main/Homework%2013)
+* [Homework 14 - Pods](https://github.com/NeonHermit/sa-homeworks/tree/main/Homework%2014)
 ---
   * [Hello Lambda](https://github.com/NeonHermit/sa-homeworks/tree/main/Hello%20Lambda)
   * [Azure CLI](https://github.com/NeonHermit/sa-homeworks/tree/main/Azure%20CLI)
@@ -30,8 +31,8 @@ Repo for all the labs and homeworks.
   * [Amazon EBS](https://github.com/NeonHermit/sa-homeworks/tree/main/Amazon%20EBS)
   * [Docker Exercise](https://github.com/NeonHermit/sa-homeworks/tree/main/Docker%20Exercise)
   * [AZ-104 Lab 09b](https://github.com/NeonHermit/sa-homeworks/tree/main/AZ-104%20Lab%2009b)
-
 ---
+  * [Midterm](https://github.com/NeonHermit/sa-homeworks/tree/main/midterm)
 
 <br/>
 

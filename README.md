@@ -32,6 +32,7 @@ Repo for all the labs and homeworks.
   * [Amazon EBS](https://github.com/NeonHermit/sa-homeworks/tree/main/Amazon%20EBS)
   * [Docker Exercise](https://github.com/NeonHermit/sa-homeworks/tree/main/Docker%20Exercise)
   * [AZ-104 Lab 09b](https://github.com/NeonHermit/sa-homeworks/tree/main/AZ-104%20Lab%2009b)
+  * [AZ-104 Lab 09c](https://github.com/NeonHermit/sa-homeworks/tree/main/AZ-104%20Lab%2009c)
 ---
   * [Midterm](https://github.com/NeonHermit/sa-homeworks/tree/main/midterm)
 

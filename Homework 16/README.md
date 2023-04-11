@@ -94,33 +94,52 @@
     
     2.4.2 Now we have problem that terraform is initialized with different provider version and we must reinitialize with “upgrade” terraform to get the assigned version.  
     
-        • Execute terraform init –upgrade command to accomplish that. (This   is required whenever
-        we work with already initialized terraform working directory.)
+        • Execute terraform init –upgrade command to accomplish that. 
+        (This is required whenever we work with already initialized terraform working directory.)
     
     2.4.3 Since we have reinitialized and updated our working directory, we can proceed again with the terraform plan command.  
     
     2.4.4 Now the output gives us another error which says that the block ‘restore_policy’ is not expected in our “azurem_storage_account” resource. But why is that?  
     
-        • Go to the terraform registry and read the provided documentation for the “azurem_storage_account” resource. Check the blob properties block and check if it has description for field named restore_policy.  
+        • Go to the terraform registry and read the provided documentation 
+        for the “azurem_storage_account” resource. Check the blob 
+        properties block and check if it has description for field named 
+        restore_policy.  
         
         • The field is present, then why do we have the issue?  
-          o When we browse terraform registry we are always forwarded to the latest version of the provider. What version of the provider do we have? Isn’t it 3.35.0.  
-          o Let’s see the documentation for version 3.35.0 of azurerm provider for the “azurem_storage_account” resource. Check the blob properties block and check if it has description for field named restore_policy.  
+          o When we browse terraform registry we are always forwarded to 
+          the latest version of the provider. What version of the provider 
+          do we have? Isn’t it 3.35.0.  
+          o Let’s see the documentation for version 3.35.0 of azurerm 
+          provider for the “azurem_storage_account” resource. Check the 
+          blob properties block and check if it has description for field 
+          named restore_policy.  
 
-        • The field is not present in version 3.35.0 and this is causing our problem. The change for
-        the restore_policy on the blob_properties is introduced in version 3.36 of the azurerm provider and we have set fixed version of 3.35.0 for the provider.
+        • The field is not present in version 3.35.0 and this is causing 
+        our problem. The change for the restore_policy on the 
+        blob_properties is introduced in version 3.36 of the azurerm 
+        provider and we have set fixed version of 3.35.0 for the provider.
 
-        • In order to fix this we would need to allow our terraform code to be able to automatically upgrade to the latest version of the provider by default. But, at the same time we would need to setup the minimum allowed version for which our code works, and that is 3.36.0  
+        • In order to fix this we would need to allow our terraform code to
+        be able to automatically upgrade to the latest version of the 
+        provider by default. But, at the same time we would need to setup 
+        the minimum allowed version for which our code works, and that 
+        is 3.36.0  
     
     2.5 Allow automatic updating of azurerm provider to the latest version, but with minimum version of 3.36.0  
 
     2.5.1 Go to your provider configuration and replace the current version with “>= 3.36.0” (allow azurerm version that is greater or equal to 3.36.0)  
   
-    2 .6 Check the result of terraform plan now. Don’t forget to reinitialize with upgrade.  
+    2.6 Check the result of terraform plan now. Don’t forget to reinitialize with upgrade.  
   
     2.6.1 Again, we have issues with our code?  
 
-        • Well in the latest provider documentation for “azurem_storage_account” for the restore policy it says that must be used together with delete_retention_policy set, versioning_enabled and change_feed_enabled set to true. This is the reason why we must consult terraform registry constantly and read the documentation for the resource configuration more carefully.  
+        • Well in the latest provider documentation for “azurem_storage_account” for the restore policy it says that must 
+        be used together with delete_retention_policy set, 
+        versioning_enabled and change_feed_enabled set to true. 
+        This is the reason why we must consult terraform registry 
+        constantly and read the documentation for the resource 
+        configuration more carefully.  
 
     2.6.2 Add the following code bellow the restore_policy block:
 
@@ -191,7 +210,8 @@ multiple.**
         • How many variables do we have defined, and which are they?  
           A: 2 variables, my_name and location
 
-        • Why did terraform asked us to input a value only for the my_name variable?  
+        • Why did terraform asked us to input a value only for the 
+          my_name variable?  
           A: Because we didn't have defined value for my_name  
 
 
@@ -212,7 +232,7 @@ multiple.**
 
     2.1. In main.tf before the data block create locals block where we will define a local value named resource_prefix where we will concatenate the input variable my_name with the generated value from the random string resource like shown below:  
 
-    ```
+    ```tf
     locals {
       resource_prefix = "${var.my_name}${random_string.random.result}"
     }
@@ -220,7 +240,7 @@ multiple.**
 
     2.2. Add this resource_prefix as prefix of the name of the azurerm_resource_group and azurerm_storage_account resources. (This is very useful for standardizing and differentiating resources when deployed on portal.) Here is an example for the resources group and you should apply the same concept for the storage account.  
 
-    ```
+    ```tf
     resource "azurerm_resource_group" "example" {
       name = "${local.resource_prefix}-rg"
       location = var.location
@@ -235,7 +255,7 @@ multiple.**
 
     3.2. Inside the outputs.tf file define an output value named resource_group_name with the value of the name of the resource group that we create, like shown below  
 
-    ```
+    ```tf
     output "resource_group_name" {
       value = azurerm_resource_group.example.name
       description = "The name of the resource group we deployed"

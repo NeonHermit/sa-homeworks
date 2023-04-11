@@ -20,6 +20,7 @@ Repo for all the labs and homeworks.
 * [Homework 13 - Lab 09a - Implement Web Apps](https://github.com/NeonHermit/sa-homeworks/tree/main/Homework%2013)
 * [Homework 14 - Pods](https://github.com/NeonHermit/sa-homeworks/tree/main/Homework%2014)
 * [Homework 15 - Kubernetes Storage](https://github.com/NeonHermit/sa-homeworks/tree/main/Homework%2015)
+* [Homework 16 - Terraform basic exercises](https://github.com/NeonHermit/sa-homeworks/tree/main/Homework%2016)
 ---
   * [Hello Lambda](https://github.com/NeonHermit/sa-homeworks/tree/main/Hello%20Lambda)
   * [Azure CLI](https://github.com/NeonHermit/sa-homeworks/tree/main/Azure%20CLI)
@@ -38,6 +39,6 @@ Repo for all the labs and homeworks.
 
 <br/>
 
-*- 2023*
+*- 2023*  
 Velibor Stanisic
 

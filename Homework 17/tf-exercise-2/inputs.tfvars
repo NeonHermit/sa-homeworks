@@ -1,0 +1,7 @@
+my_name       = "velibor"
+environment   = "staging"
+location      = "westeurope"
+base_name     = "my-test-vm"
+vms_subnet_id = "/subscriptions/7c4c34d4-0360-400c-80f4-ca0f4899fcc5/resourceGroups/veliborpyp1mx73-rg/providers/Microsoft.Network/virtualNetworks/my-test-vnet/subnets/vms"
+my_public_ip  = "79.125.137.12"
+my_password   = "SuperSecretPass123!"

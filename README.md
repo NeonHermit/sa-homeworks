@@ -22,6 +22,7 @@ Repo for all the labs and homeworks.
 * [Homework 15 - Kubernetes Storage](https://github.com/NeonHermit/sa-homeworks/tree/main/Homework%2015)
 * [Homework 16 - Terraform basic exercises](https://github.com/NeonHermit/sa-homeworks/tree/main/Homework%2016)
 * [Homework 17 - Terraform modules](https://github.com/NeonHermit/sa-homeworks/tree/main/Homework%2017)
+* [Homework 18 - Github Actions](https://github.com/NeonHermit/github-actions)
 ---
   * [Hello Lambda](https://github.com/NeonHermit/sa-homeworks/tree/main/Hello%20Lambda)
   * [Azure CLI](https://github.com/NeonHermit/sa-homeworks/tree/main/Azure%20CLI)

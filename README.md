@@ -24,6 +24,7 @@ Repo for all the labs and homeworks.
 * [Homework 17 - Terraform modules](https://github.com/NeonHermit/sa-homeworks/tree/main/Homework%2017)
 * [Homework 18 - Github Actions](https://github.com/NeonHermit/github-actions)
 * [Homework 19 - Jenkins](https://github.com/NeonHermit/sa-homeworks/tree/main/Homework%2019)
+* [Homework 20 - GitOps](https://github.com/NeonHermit/sa-homeworks/tree/main/Homework%2020)
 ---
   * [Hello Lambda](https://github.com/NeonHermit/sa-homeworks/tree/main/Hello%20Lambda)
   * [Azure CLI](https://github.com/NeonHermit/sa-homeworks/tree/main/Azure%20CLI)

@@ -1,4 +1,4 @@
-# it's wiser to be cautious and careful than to be hasty.
+# emacs
 tramp
 \#*\#
 .\#*
@@ -7,6 +7,7 @@ tramp
 
 #
 .idea/
+monitoring/
 *.zip
 go.mod
 go.sum

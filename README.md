@@ -41,7 +41,7 @@ Repo for all the labs and homeworks.
   * [AZ-104 Lab 09c](https://github.com/NeonHermit/sa-homeworks/tree/main/AZ-104%20Lab%2009c)
 ---
   * [Midterm](https://github.com/NeonHermit/sa-homeworks/tree/main/midterm)
-
+  * [Final Project](https://github.com/NeonHermit/Final-Project-Assessment-for-Scalefocus-Academy)
 <br/>
 
 *- 2023*  
